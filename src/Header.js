@@ -2,7 +2,7 @@ import logo from './logo.png';
 import Nav from './Nav';
 import style from './header.module.css';
 
-function Header() {
+const Header = () => {
   return (
     <header className={style.header} type="header">
       <div className={style.border}>

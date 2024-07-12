@@ -1,6 +1,6 @@
 import style from './header.module.css';
 
-function Nav() {
+const Nav = () => {
   return (
     <nav className={style.navbar}>
         <div className={style.navlink}><a href="#home">Home</a></div>
