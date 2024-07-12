@@ -1,9 +1,15 @@
 import logo from './logo.png';
+import Nav from './Nav';
+import style from './header.module.css';
 
 function Header() {
   return (
-    <header>
-      <img src={logo} alt="Little Lemon Logo" width="200" />
+    <header className={style.header} type="header">
+      <div className={style.border}>
+        <img src={logo} alt="Little Lemon Logo" width="200" />
+        <Nav />
+      </div>
+
     </header>
   );
 }
